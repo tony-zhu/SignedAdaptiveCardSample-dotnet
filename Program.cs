@@ -15,7 +15,7 @@ namespace SignedAdaptiveCardSample
     using Newtonsoft.Json;
 
     /// <summary>
-    /// The sample program generaing Actionable Message email body with signed Adaptive Card
+    /// The sample program generating Actionable Message email body with signed Adaptive Card
     /// </summary>
     class Program
     {
