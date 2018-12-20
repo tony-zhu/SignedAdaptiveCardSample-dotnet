@@ -1,0 +1,21 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "size": "large",
+      "text": "Hello Actionable message",
+      "wrap": true,
+      "type": "TextBlock"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.InvokeAddInCommand",
+      "title": "Open Actionable Messages Debugger",
+      "addInId": "3d1408f6-afb3-4baf-aacd-55cd867bb0fa",
+      "desktopCommandId": "amDebuggerOpenPaneButton"
+    }
+  ]
+}
