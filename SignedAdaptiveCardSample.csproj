@@ -6,8 +6,8 @@
     <ProjectGuid>{3BA61C71-D820-4ADD-AE89-7ED315354CA0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenerateRSAKey</RootNamespace>
-    <AssemblyName>GenerateRSAKey</AssemblyName>
+    <RootNamespace>SignedAdaptiveCardSample</RootNamespace>
+    <AssemblyName>SignedAdaptiveCardSample</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -41,8 +41,7 @@
     <Reference Include="Microsoft.IdentityModel.Tokens">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
